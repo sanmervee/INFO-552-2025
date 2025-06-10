@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Search Cats</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <a href="index.html" class="logo-link">
+      <img src="logo.png" alt="Philly Stray Cats Hub Logo" class="logo">
+    </a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="identify.html">Identify/Register a Cat</a></li>
+        <li><a href="help.html">Request/Offer Help</a></li>
+        <li><a href="resources.html">Local Resources</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="stories.html">Success Stories</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+<main>
+  <h2 style="text-align: center;">Search for a Cat</h2>
+  <form class="search-form">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+
+    <label for="location">Location:</label>
+    <input type="text" id="location" name="location">
+
+    <label for="caregiver">Caregiver:</label>
+    <input type="text" id="caregiver" name="caregiver">
+
+    <label for="color">Color:</label>
+    <input type="text" id="color" name="color">
+
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender">
+      <option value="">--Select--</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="unknown">Unknown</option>
+    </select>
+
+    <label for="age">Age:</label>
+    <input type="text" id="age" name="age">
+
+    <button type="submit">Search</button>
+  </form>
+
+  <h2>Registered cats:</h2>
+  <div class="cat-gallery">
+    <!-- Example Card -->
+    <div class="cat-card">
+      <img src="cat4.png" alt="Photo of cat named Milo">
+      <p><strong>Name:</strong> Milo</p>
+      <p><strong>Locaton:</strong> 7th St & Girard Av </p>
+      <p><strong>Caregiver:</strong> Chris W.</p>
+      <p><strong>Contact:</strong> chris@gmail.com</p>
+      <p><strong>Color:</strong> Orange Tabby</p>
+      <p><strong>Gender:</strong> Male</p>
+      <p><strong>Age:</strong> 2 years</p>
+    </div>
+    <div class="cat-card">
+      <img src="cat3.png" alt="Photo of cat named Max">
+      <p><strong>Name:</strong> Max</p>
+      <p><strong>Locaton:</strong> 6th St & Girard Av </p>
+      <p><strong>Caregiver:</strong> Jay M.</p>
+      <p><strong>Contact:</strong> jay@gmail.com</p>
+      <p><strong>Color:</strong> Tabby</p>
+      <p><strong>Gender:</strong> Male</p>
+      <p><strong>Age:</strong> 1 years</p>
+    </div>
+    <div class="cat-card">
+      <img src="cat11.png" alt="Photo of cat named Shadow">
+      <p><strong>Name:</strong>Shadow</p>
+      <p><strong>Locaton:</strong> 7th St & Thompson Av </p>
+      <p><strong>Caregiver:</strong> Jay M.</p>
+      <p><strong>Contact:</strong> jay@gmail.com</p>
+      <p><strong>Color:</strong> Grey</p>
+      <p><strong>Gender:</strong> Female</p>
+      <p><strong>Age:</strong> 4 years</p>
+    </div>
+  </div>
+</main>
+<footer>
+  <p>&copy; 2025 Philly Stray Cats Hub</p>
+</footer>
+</body>
+</html>

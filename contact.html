@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    #successMessage {
+      display: none;
+      color: green;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="index.html" class="logo-link">
+      <img src="logo.png" alt="Philly Stray Cats Hub Logo" class="logo">
+    </a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="identify.html">Identify/Register a Cat</a></li>
+        <li><a href="help.html">Request/Offer Help</a></li>
+        <li><a href="resources.html">Local Resources</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="stories.html">Success Stories</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <p>If you have feedback or questions, feel free to contact us below.</p>
+    <form id="contactForm">
+      <label for="email">Your Email:</label><br>
+      <input type="email" id="email" required><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" rows="4" cols="50" required></textarea><br><br>
+
+      <button type="submit">Send</button>
+    </form>
+
+    <p id="successMessage">Your message is sent.</p>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Philly Stray Cats Hub</p>
+  </footer>
+
+  <!-- Link to external JS -->
+  <script src="script.js"></script>
+</body>
+</html>
